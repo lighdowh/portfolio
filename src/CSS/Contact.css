@@ -1,0 +1,118 @@
+.contact {
+    background-color: #6d5a5a;;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px rgb(14, 13, 12);
+    color: #fff;
+    height: 530px;
+    /* width: 600px; */
+    /* margin-right: 100%; */
+    
+}
+
+.contact:hover {
+    background-color: bisque;
+    color: rgb(15, 14, 14);
+    transform: translateY(5px);
+        transition: 1s;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+div {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-top: 3px;
+    margin-bottom: 10px;
+}
+
+textarea {
+    border-radius: 10px;
+    border: 3px solid black;
+}
+
+input {
+    background-color: #ffffff;
+    color: black;
+    padding: 10px 15px;
+    border: 3px solid black;
+    border-radius: 10px;
+    
+    font-size: 16px;
+}
+
+.btn.btn2{
+    display: inline-block;
+    background-image: linear-gradient(#7b4397 , #dc2430);
+    border-radius: 50px;
+    border: 2px solid black;
+    margin-right: 21px;
+    margin-top: 0px;
+    width: 100px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    height: 30px;
+    font-size: large;
+    box-shadow: 5px 5px 10px rgb(14, 13, 12);
+}
+
+input:hover {
+    background-color: #ffffff;
+}
+
+
+footer {
+    text-align: center;
+    padding: 1px; 
+    background-color: #333;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    
+}
+
+.contact_me{
+    background-color: #6d5a5a;;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px rgb(14, 13, 12);
+    color: #fff;
+    height: 150px;
+    
+}
+
+.contact_me:hover {
+    background-color: bisque;
+    color: rgb(15, 14, 14);
+    transform: translateY(5px);
+        transition: 1s;
+}
+
+
+/* img{
+    margin-right: 21px;
+    margin-top: 0px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+} */

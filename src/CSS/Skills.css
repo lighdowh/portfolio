@@ -1,0 +1,193 @@
+.skills{
+    /* margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 100px; */
+}
+
+
+
+
+
+
+.web {
+    border: 2px solid #010202; 
+    border-radius: 10px;
+    background-image: linear-gradient(purple,cyan);
+    color: black; 
+    padding: 10px;
+    margin-bottom: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    box-shadow: 5px 5px 10px rgb(14, 13, 12);
+    width: 350px;
+    /* height: 50%; */
+    margin-left: 35%;
+    
+    
+}
+
+.web img {
+    width: 40px;
+    height: 40px;
+    margin: 0 5px;
+
+}
+
+
+.pyt {
+    border: 2px solid black; 
+    border-radius: 10px;
+    background-image: linear-gradient(#D4145A , #FBB03B);
+    color: black;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    box-shadow: 5px 5px 10px rgb(14, 13, 12);
+    width: 350px;
+    height: 50%;
+    margin-left: 35%;
+}
+
+
+.pyt img {
+    width: 60px;
+    height: 50px;
+    margin: 5px;
+}
+
+
+.cp {
+    border: 2px solid black; 
+    border-radius: 10px;
+    background-image: linear-gradient(#662D8C , #ED1E79); 
+    color: black;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    box-shadow: 5px 5px 10px rgb(14, 13, 12);
+    width: 350px;
+    height: 50%;
+    margin-left: 35%;
+}
+
+
+.cp img {
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+}
+
+
+.git {
+    border: 2px solid black; 
+    border-radius: 10px;
+    background-image: linear-gradient(#EA8D8D , #A890FE); 
+    color: black;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    box-shadow: 5px 5px 10px rgb(14, 13, 12);
+    width: 350px;
+    height: 50%;
+    margin-left: 35%;
+}
+
+.git img {
+    width: 70px;
+    height: 60px;
+    margin: 5px;
+}
+
+
+
+.web {
+
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+
+.web:hover {
+    background-image: linear-gradient(#2E3192,#1BFFFF);
+    color: #070707; 
+    transform: translateY(7px);
+    transition: 3s;
+}
+
+
+.pyt {
+    
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+
+.pyt:hover {
+    background-image: linear-gradient(#009245 , #FCEE21); 
+    color: #fff; 
+    transform: translateY(7px);
+    transition: 3s;
+}
+.cp {
+    
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+
+.cp:hover {
+    background-image: linear-gradient(#FF512F , #DD2476); 
+    color: #fff;
+    transform: translateY(7px);
+    transition: 3s;
+}
+
+.git {
+    
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+
+.git:hover {
+    background-image: linear-gradient(#D8B5FF , #1EAE98); 
+    color: #fff; 
+    transform: translateY(7px);
+    transition: 3s;
+}
+
+
+
+@media screen and (max-width:600px) {
+
+
+
+.skills{
+    justify-content: center;
+}
+
+    .web{
+        width: 244px;
+        /* height:200px; */
+        /* justify-content: center; */
+        margin-left: 50px;
+    }
+
+    .pyt{
+        width: 244px;
+        height:200px;
+        margin-left: 50px;
+    }
+
+    .cp{
+        width: 244px;
+        height:200px;
+        margin-left: 50px;
+    }
+
+    .git{
+        width: 244px;
+        height:200px;
+        margin-left: 50px;
+    }
+    
+}
