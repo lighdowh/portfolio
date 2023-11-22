@@ -1,6 +1,7 @@
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import gif from '../images/Settings.gif';
+import '../CSS/Contact.css'
 
 function Contact() {
   const form = useRef();
@@ -62,9 +63,9 @@ function Contact() {
         <p>LinkedIn: linkedin.com/in/K_Chandan_Puthuraya </p>
       </section>
 
-      <footer>
+      {/* <footer>
         <p>&copy; 2023 K_Chandan_Puthuraya. All rights reserved.</p>
-      </footer>
+      </footer> */}
     </div>
   );
 }

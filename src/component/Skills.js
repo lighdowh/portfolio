@@ -9,26 +9,36 @@ import '../CSS/Skills.css'
 function Skills() {
   return (
     <div className='ski'>
-      <section className="skills">
-            <h2><u>Skills</u></h2>
-            <ul>
-                <div className="web"><li><h2><u>Responsive Web Design</u></h2></li>
-                <img src={image1} className='htm'></img>   
-                <p>HTML 5</p>
-                <img src={image2}className='cs'></img>
-                <p>CSS 3</p>  
-                <img src={image3} className='js'></img>
-                <p>JavaScript</p>
-                </div>
-                <div className="pyt"><li><h2><u>Python</u></h2>  <img src={image5} className='py'></img></li></div>
-                <div className='cp'><li><h2><u>C programming</u></h2> <img src={image6} className='cpr'></img></li></div>
-                <div className='git'><li><h2><u>Version Control (Git)</u></h2><img src={image4} className='gt'></img></li></div>
-            </ul>
-        </section>
+      <div className="skills">
+        <div className="skill-card web">
+            <h2>Responsive Web Design</h2>
+            <img src={image1} alt="HTML5" class="htm"></img>
+            <p>HTML 5</p>
+            <img src={image2} alt="CSS3" class="cs"></img>
+            <p>CSS 3</p>
+            <img src={image3} alt="JavaScript" class="js"></img>
+            <p>JavaScript</p>
+        </div>
 
-        <footer>
+        <div class="skill-card pyt">
+            <h2>Python</h2>
+            <img src={image5} alt="Python" class="py"></img>
+        </div>
+
+        <div class="skill-card cp">
+            <h2>C Programming</h2>
+            <img src={image6} alt="C Programming" class="cpr"></img>
+        </div>
+
+        <div class="skill-card git">
+            <h2>Version Control (Git)</h2>
+            <img src={image4} alt="Git" class="gt"></img>
+        </div>
+    </div>
+
+        {/* <footer>
             <p>&copy; 2023 K_Chandan_Puthuraya. All rights reserved.</p>
-        </footer>
+        </footer> */}
 
     </div>
   );

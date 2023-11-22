@@ -21,7 +21,7 @@ body {
     font-size: 17px;
   }
 
-  li{
+  .align li{
     margin-top: 4px;
     display: flex;
   }
@@ -106,7 +106,7 @@ body {
   .sidebar{
     float: left;
     position: relative;
-    top: 31px;
+    top: 11px;
     height: 253px;
     right: 0px;
 
@@ -127,7 +127,7 @@ body {
   .closebtn{
     /* margin-right: 0px; */
     /* float: right; */
-    margin-left: 360.59px;
+    margin-left: 378.59px;
     color: gold;
   
   }

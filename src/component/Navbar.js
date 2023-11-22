@@ -43,6 +43,12 @@ function Navbar() {
         <Link className="#contact" to={'/contact'} >Contact</Link>
        
         }
+        { activeNav=='/work'?
+        ""
+        :
+        <Link className="#work" to={'/work'} >Work</Link>
+       
+        }
         
         </ul>
         {
@@ -77,6 +83,11 @@ function Navbar() {
   ""
   :
         <li><Link className="#contact" to={'/contact'}onClick={() => hamburger(false)}>Contact</Link></li>
+}
+{ activeNav=='/work'?
+  ""
+  :
+        <li><Link className="#work" to={'/work'}onClick={() => hamburger(false)}>Work</Link></li>
 }
         </ul>
         </div>

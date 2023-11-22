@@ -38,9 +38,9 @@ function About() {
             <p>LinkedIn: linkedin.com/in/K_Chandan_Puthuraya </p>
         </section> */}
     
-        <footer>
+        {/* <footer>
             <p>&copy; 2023 K_Chandan_Puthuraya. All rights reserved.</p>
-        </footer>
+        </footer> */}
     </div>
   );
 }
