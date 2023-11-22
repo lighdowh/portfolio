@@ -1,21 +1,17 @@
 import React from 'react'
 import '../CSS/Home.css'
 import About from './About'
-import Skills from './Skills'
 import Contact from './Contact'
+import Work from './Work'
 
 function Home() {
   return (
     <div>
 
 
-  {/* <header>
-            <img src={image7}></img>
-            <h1>K Chandan Puthuraya</h1>
-            <p>Web Developer</p>
-        </header> */}
+
     <About />
-    <Skills />
+    <Work />
     <Contact />
     
 

@@ -30,10 +30,10 @@ function Navbar() {
        
         }
 
-        { activeNav=='/skills'?
+        { activeNav=='/work'?
         ""
         :
-        <Link className="#skills" to={'/skills'} >Skills</Link>
+        <Link className="#work" to={'/work'} >Work</Link>
         
         }
         
@@ -43,12 +43,12 @@ function Navbar() {
         <Link className="#contact" to={'/contact'} >Contact</Link>
        
         }
-        { activeNav=='/work'?
+        {/* { activeNav=='/work'?
         ""
         :
-        <Link className="#work" to={'/work'} >Work</Link>
+        <Link className="#work" to={'/work'} >Work</Link> */}
        
-        }
+        
         
         </ul>
         {
@@ -74,20 +74,15 @@ function Navbar() {
       :
         <li><Link className="#about" to={'/about'}onClick={() => hamburger(false) }>About</Link></li>
     }
-    { activeNav=='/skills'?
+    { activeNav=='/work'?
     ""
     :
-        <li><Link className="#skills" to={'/skills'} onClick={() => hamburger(false)} >Skills</Link></li>
+        <li><Link className="#work" to={'/work'} onClick={() => hamburger(false)} >Work</Link></li>
   }
   { activeNav=='/contact'?
   ""
   :
         <li><Link className="#contact" to={'/contact'}onClick={() => hamburger(false)}>Contact</Link></li>
-}
-{ activeNav=='/work'?
-  ""
-  :
-        <li><Link className="#work" to={'/work'}onClick={() => hamburger(false)}>Work</Link></li>
 }
         </ul>
         </div>

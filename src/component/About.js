@@ -21,22 +21,6 @@ function About() {
             </p>
         </section>
     
-        {/* <section class="skills">
-            <h2><u>Skills</u></h2>
-            <ul>
-                <li>HTML5</li>
-                <li>CSS3</li>
-                <li>JavaScript</li>
-                <li>Responsive Web Design</li>
-                <li>Version Control (Git)</li>
-            </ul>
-        </section> */}
-    
-        {/* <section class="contact">
-            <h2><u>Contact</u></h2>
-            <p>Email: kchandanputhuraya@gmail.com</p>
-            <p>LinkedIn: linkedin.com/in/K_Chandan_Puthuraya </p>
-        </section> */}
     
         {/* <footer>
             <p>&copy; 2023 K_Chandan_Puthuraya. All rights reserved.</p>
