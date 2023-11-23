@@ -60,7 +60,7 @@ function Navbar() {
           ""
 }
 
-{          mobile ?
+{         mobile ?
         <div id="mySidebar" className="sidebar">
           <span className="closebtn" onClick={() => hamburger(false)}>x</span>
         <ul className="align"> 

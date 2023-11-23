@@ -15,9 +15,9 @@ function Home() {
     <Contact />
     
 
-    <footer>
+    {/* <footer>
     <p>&copy; 2023 K_Chandan_Puthuraya. All rights reserved.</p>
-    </footer>
+    </footer> */}
 
 
 
