@@ -2,6 +2,9 @@ import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import gif from '../images/Settings.gif';
 import '../CSS/Contact.css'
+import inst from '../images/insta.svg'
+import likn from '../images/link.svg'
+import hub from '../images/git.svg'
 
 function Contact() {
   const form = useRef();
@@ -61,6 +64,16 @@ function Contact() {
         </h2>
         <p>Email: kchandanputhuraya@gmail.com</p>
         <p>LinkedIn: linkedin.com/in/K_Chandan_Puthuraya </p>
+
+        <a href='https://www.instagram.com/_shadow_039'>
+          <img src={inst} className='insta'></img>
+        </a>
+        <a href='https://www.linkedin.com/in/k-chandan-puthuraya-0439a7228/'>
+          <img src={likn} className='linkdin'></img>
+        </a>
+        <a href='https://github.com/lighdowh'>
+          <img src={hub} className='git'></img>
+        </a>
       </section>
 
       {/* <footer>
